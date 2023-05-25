@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_IssuePopup.MainPage">
+    <Grid RowDefinitions="44,*">
+        <StackLayout Grid.Row="0" Orientation="Horizontal">
+            <Button x:Name="btn1" Text="Show1" BackgroundColor="Blue" TextColor="White" Clicked="btn_Clicked" />
+            <Button x:Name="btn2" Text="Show2" BackgroundColor="Blue" TextColor="White" Clicked="btn_Clicked" />
+            <Button x:Name="btn3" Text="Show3" BackgroundColor="Blue" TextColor="White" Clicked="btn_Clicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
